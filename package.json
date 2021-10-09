@@ -1,0 +1,32 @@
+{
+  "name": "recond",
+  "version": "1.1.1",
+  "description": "A react library which checks conditions.",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "types": "./lib/esm/index.d.ts",
+  "scripts": {
+    "build": "tsc && npm run build:cjs",
+    "build:cjs": "tsc --module commonjs --outDir lib/cjs"
+  },
+  "keywords": [
+    "react",
+    "reactjs"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/iscanyc/recond#readme",
+  "files": [
+    "/lib"
+  ],
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.19",
+    "@types/react-dom": "^17.0.9",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.4.2"
+  }
+}

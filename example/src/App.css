@@ -1,0 +1,46 @@
+:root {
+  --dark: #082032;
+  --light: #ededed;
+  --grey: #2c394b;
+  --primary: #da0037;
+}
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: var(--dark);
+  color: var(--light);
+}
+.link {
+  color: var(--light);
+  text-decoration: underline;
+  text-decoration-color: var(--primary);
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 16px;
+}
+.card {
+  width: 35%;
+}
+.card-header {
+  border-bottom: 5px solid var(--grey);
+  margin-bottom: 0.8rem;
+}
+.card-header h1 {
+  margin: 0;
+}
+.card-footer {
+  margin-top: 1rem;
+}
+
+input[type="number"] {
+  width: 50%;
+  padding: 0.5rem;
+  font-weight: bold;
+  border: none;
+  background: var(--grey);
+  color: var(--primary);
+  outline: none;
+}
