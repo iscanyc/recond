@@ -38,7 +38,7 @@ Renders CondTwo.
 />
 ```
 
-If doesnt match any condition, you can use defaultMethod. Now defaultMethod is rendered.
+If doesnt match any condition, you can use defaultValue. Now defaultValue is rendered.
 
 ```js
 <Recond
